@@ -1,0 +1,8 @@
+gunicorn
+gevent
+flask
+gevent
+celery
+pymongo
+python-dotenv
+sqlalchemy

@@ -1,6 +1,6 @@
 from flask import Flask
 from celery import Celery
-from tasks import add, get_dict
+from tasks.tasks import add, get_dict
 
 app = Flask(__name__)
 app.config['CELERY_BROKER_URL'] = 'amqp://guest:guest@rabbitmq:5672'
